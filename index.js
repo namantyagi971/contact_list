@@ -140,5 +140,5 @@ app.listen(port,function(err){
         console.log("error occured",err);
         return;
     }
-    console.log("Yup! Server is running on port : ",process.env.PORT);
+    console.log("Yup! Server is running on port : ",port);
 });
