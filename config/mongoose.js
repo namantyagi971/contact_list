@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 
 const mongodbURL = process.env.MONGODB_URL || 'mongodb://localhost/contacts_list_db'
 // conecting to the database
-mongoose.connect(mongodbURL);
+mongoose.connect(mongodbURL,{useNewUrlParser:true,useUnifiedTopology:true});
 
 // acquire the  connection (to check if successfully running or not)
 const db=mongoose.connection;
