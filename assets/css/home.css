@@ -1,0 +1,60 @@
+#page-heading{
+    text-align: center;
+    color:gray;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+#contact-container{
+    width:500px;
+    margin :auto;
+}
+#combine{
+    display:flex;
+    background-color: rgb(6, 174, 240);
+    border-bottom: 2px solid white;
+}
+#combine .contact-info{
+    width:90%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding:8px;
+
+}
+#combine .delete-contact-option{
+    width:10%;
+    text-align: center;
+    margin-top: 13px;
+}    
+#combine .delete-contact-option a{
+    color:black;
+}
+
+#combine:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#contactlist-form{
+    margin-top:20px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+#contactlist-form input{
+    width:220px;
+    border : 0px;
+    outline: none;
+    border-bottom: 2px solid rgb(10, 162, 223);
+    padding:4px;
+    font-size: 15px;
+
+}
+#contactlist-form button{
+    background-color: gray;
+    color:white;
+    padding:4px;
+    font-size: 15px;
+    cursor: pointer;
+
+}

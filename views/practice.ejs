@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title><%= title %></title>
+    </head>
+    <body>
+        <h1> My Playground </h1>
+        <ul>
+            <% for(let i=0;i<10;i++) { %> 
+                <li>
+                    <%= i+1 %>
+                </li>
+            <% } %>
+        </ul>
+        <% if(false) {%>
+            <h1>It's true</h1>
+        <% }else { %>
+            <h1> It's false</h1>
+        <% } %>
+    </body>
+</html>
